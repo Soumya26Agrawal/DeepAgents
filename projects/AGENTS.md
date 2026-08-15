@@ -1,10 +1,7 @@
 # Agent Profile & Memory
 
-This file gives the agent background knowledge about its own architectire, the project conventions and how it should operate.
+This file gives the you background knowledge about your architectire, the project conventions, user preferences and how you should operate.
 
-## Project Overview
-
-This repository contains an AI application built with LangGraph and FastAPI.
 
 The primary goals are:
 - Write clean, maintainable code.
@@ -21,27 +18,6 @@ The primary goals are:
 - Write descriptive variable and function names.
 - Keep functions under 50 lines when practical.
 - Avoid duplicate code.
-
----
-
-## File Organization
-
-- API routes belong in `app/api/`
-- Business logic belongs in `app/services/`
-- Utility functions belong in `app/utils/`
-- Database code belongs in `app/db/`
-
-Do not create new top-level directories unless necessary.
-
----
-
-## Python Guidelines
-
-- Use pathlib instead of os.path.
-- Prefer dataclasses or Pydantic models.
-- Avoid global variables.
-- Use logging instead of print().
-- Raise meaningful exceptions.
 
 ---
 
